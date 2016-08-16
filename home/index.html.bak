@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link rel="stylesheet" href="css/swipebox.css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<link href='http://fonts.useso.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script src="js/responsiveslides.min.js"></script>
+		<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+		<!-- //swipe box js -->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+
+</head>
+<body>
+<!--banner-->
+<div class="banner">
+	<div class="container">
+			<div class="header-nav">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header logo">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<h1>
+									<a class="navbar-brand link link--yaku" href="index.html">
+										<span><img src="images/logo.png" style="width: 45px;"></span>
+										<span><img src="images/1.png"></span><span><img src="images/2.png"></span><span><img src="images/3.png"></span><span><img src="images/4.png"></span><span><img src="images/5.png"></span><span><img src="images/6.png"></span><span><img src="images/7.png"></span><span><img src="images/8.png"></span><span><img src="images/9.png"></span><span><img src="images/10.png"></span><span><img src="images/11.png"></span><span><img src="images/12.png"></span></a>
+								</h1>
+								
+							</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav class="cl-effect-1">
+									<ul class="nav navbar-nav ">
+										<li><a class="hvr-overline-from-left button2 active scroll" href="index.html">主页</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#about">产品介绍</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#services">解决方案</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#portfolio">典型案例</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#contact">联系我们</a></li>
+										<!--<li><a class="hvr-overline-from-left button2 scroll" href="#portfolio">Portfolio</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#contact">Contact</a></li>-->
+									</ul>
+								</nav>
+							</div><!-- /navbar-collapse -->
+						</nav>
+			</div>
+				<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						 // Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+							}
+							});
+						});
+				</script>
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner-info">
+					<br/>
+						<img src="images/name.png" style="width:800px;">
+						<p><img src="images/solgan.png" width="50%" /></p>
+						<div class="clearfix"></div>
+						<div class="arrow text-center"><a class="scroll" href="#about"><img src="images/icon.png" alt=" " /></a></div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-info">
+					<br/>
+						<img src="images/solgan2.png" style="width:800px;">
+						<p><img src="images/solgan.png" width="50%" /></p>
+						<div class="clearfix"></div>
+						<div class="arrow text-center"><a class="scroll" href="#about"><img src="images/icon.png" alt=" " /></a></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--//banner-->
+<!-- about -->
+<div id="about" class="about all_pad text-center">
+	<div class="container">
+		<h3 class="title">产品介绍</h3>
+		<p class="para">后勤服务云平台是<span>以NFC和云存储为核心；</span>以互联网软件系统为基础平台；对物业进行高效管理的统一管理平台。
+		</p>
+		<div class="col-md-3 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a  class="hi-icon icon1"></a>
+				平台远程综合监管，解决了现在工作人员跟踪难、工作状态不清晰等难题；部署电子标签，实时上报服务人员工作内容和执行标准，从而提升品质服务。
+			</div>
+			<h4 >工作制定</h4>
+			<p class="para">&nbsp;&nbsp;提前制定全局工作内容，常规工作仅需一次制定；临时任务，实时安排。
+			</p>
+		</div>
+		<div class="col-md-3 abt-grid yes_marg">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a  class="hi-icon icon2"></a>
+			</div>
+			<h4>实时监督</h4>
+			<p class="para">平台远程综合监管，解决了现在工作人员跟踪难、工作状态不清晰等难题；部署电子标签，实时上报服务人员工作内容和执行标准，从而提升品质服务。
+		</p>
+		</div>
+		<div class="col-md-3 abt-grid yes_marg">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a  class="hi-icon icon2"></a>
+			</div>
+			<h4>考核分析</h4>
+			<p class="para">贴近项目特点，个性化制定任务、周期、频次、内容、标准等管理要素，将复杂变为简单，将琐碎变为统一 
+		</p>
+		</div>
+		<div class="col-md-3 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a  class="hi-icon icon3"></a>
+			</div>
+			<h4>分析</h4>
+			<p class="para">通过现场数据分析,节约人力和物力成本，提升企业核心竞争力。任务上传数据统计分析，及时掌握隐患分布，调整区域巡查力度与频次，使现场管理更准确、更超前。</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //about -->
+
+<!-- philosophy -->
+<div class="philosophy all_pad text-center">
+	<div class="container">
+		<h3 class="title">产品优势</h3>
+		<img src="images/youshi.png" style="width:80%;">
+	</div>
+</div>	
+<!-- //philosophy -->
+
+<!-- team -->
+<div id="team" class="team all_pad text-center">
+	<div class="container">
+		<h3 class="title">业务场景</h3>
+			<div class="col-md-4 about-poleft">
+				<div class="about_img"><img src="images/baoan.png" alt="" width="50%">
+				  <h5>保安巡检</h5>
+				  <div class="about_opa">
+				  	<div style="padding: 50px;">
+				  		  检查物业内的安全设施，可疑人员，可疑物品等
+
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 about-poleft yes_marg">
+				<div class="about_img"><img src="images/huanbao.png" alt="">
+				  <h5>环境保洁</h5>
+				  <div class="about_opa">
+					<div style="padding: 50px;">
+  						检查环境情况，清洁卫生工作
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4 about-poleft">
+				<div class="about_img"><img src="images/weixiu.png" alt="">
+				  <h5>设备检修</h5>
+				  <div class="about_opa">
+				  	<div style="padding: 50px;">
+					设备运行情况，设施报修工作，设施报修进度跟踪
+				  	</div>
+				  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //team -->
+<!-- services -->
+<div id="services" class="services all_pad text-center">
+	<div class="container">
+		<h3 class="title">解决方案</h3>
+
+		<div class="col-md-6 services-left">
+			<span class="glyphicon glyphicon-wrench" aria-hidden="true"><p>项目施工</p></span>
+			<div class="head_ser"><h5>1</h5></div>
+			<p>施工简单、投入少、快捷！设备重复使用，不浪费！
+			</p>
+		</div>
+		<div class="col-md-6 services-right">
+			<span class="glyphicon glyphicon-edit" aria-hidden="true"><p>计划制定</p></span>
+			<div class="head_ser"><h5>2</h5></div>
+			<p>后台设定科学工作任务.
+			</p>
+		</div>
+		<div class="col-md-6 services-left mar-top">
+			<span class="glyphicon glyphicon-play" aria-hidden="true"><p>工作执行</p></span>
+			<div class="head_ser"><h5>3</h5></div>
+			<p>手机终端实时提交工作情况、平台设定任务提示.
+			</p>
+		</div>
+		<div class="col-md-6 services-right mar-top">
+			<span class="glyphicon glyphicon-paperclip" aria-hidden="true"><p>完成情况</p></span>
+			<div class="head_ser"><h5>4</h5></div>
+			<p>个性化设定项目质检标准； 质检结果现场拍照，对比标准，数据留档。
+			</p>
+		</div>
+		<div class="clearfix"></div>
+		<div class="ser-bottom">
+				<span class="glyphicon glyphicon-globe" aria-hidden="true"><p>绩效考核</p></span>
+				<div class="head_ser"><h5>5</h5></div>
+				<p>后台通过质检评测，图片及 问题追踪管理，实时监控现 场效果 
+				</p>
+		</div>
+	</div>
+</div>
+<!-- //services -->
+<!-- work -->
+<!--<div id="work" class="work all_pad text-center">
+	<div class="container">
+		<h3 class="title">WORK STEPS</h3>
+		<p class="para">Duis aute irure dolor reprehenderit<span> in voluptate velit</span> esse cillum dolore eu 
+		fugiat nulla pariatur. Excepteur sint occaecat.</p>
+		<div class="col-md-8 where-right">
+			<div class="wel-left">
+				<div class="work-left">
+					<h4>01</h4>
+				</div>
+				<div class="work-right text-left">
+					<h5>PROJECT UNDERSTANDING</h5>
+					<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+						fugiat nulla pariatur. Excepteur sint occaecat.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="wel-right ">
+				<div class="content-item item-image1">
+					<div class="overlay"></div>
+					  <div class="corner-overlay-content"></div>
+					  <div class="overlay-content">
+					  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="col-md-8 where-right no-marg">
+			<div class="wel-right2">
+				<div class="content-item item-image2">
+					<div class="overlay"></div>
+					  <div class="corner-overlay-content"></div>
+					  <div class="overlay-content">
+					  </div>
+				</div>
+			</div>
+			<div class="wel-left2">
+				<div class="work-left">
+					<h4>02</h4>
+				</div>
+				<div class="work-right text-left">
+					<h5>RESEARCH & PLANNING</h5>
+					<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
+						fugiat nulla pariatur. Excepteur sint occaecat.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>-->
+<!-- //services -->
+<!-- portfolio -->
+<div id="portfolio" class="portfolio all_pad text-center">
+	<div class="container">
+		<h3 class="title">典型案例</h3>
+		<p class="para">NFC智能后勤云平台被应用于<span>物业、消防、巡检等</span>多种系统。</p>
+        <div class="filtr-container ">
+                <div class=" col-md-6 filtr-item baner-top" data-category="1, 5" data-sort="Busy streets">
+					<a href="images/g1.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>湖南移动后勤服务</h4>
+										<span class="divider"></span>
+										<p>营业厅是人员聚集的地方，往来人员频繁、复杂，因此也是偷盗、破坏公共设施等犯罪活动多发区域。另外，各种货物、商品大量堆放，也是火灾高发区，许多商品库房一般位于地下室，各类管道泄漏、电线线路老化问题不易察觉，存在发生货物浸泡、火灾等隐患，一旦出现问题很难及时发现，造成巨额损失。</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-6 filtr-item baner-top" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/g2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>海航物业</h4>
+										<span class="divider"></span>
+										<p>  NFC后勤服务系统，针对办公大楼管理的特点，为充分发挥保安人员的作用，寻求科学的解决方案，建立安全智能巡更管理系统，从而提高商场事故（火灾、偷盗等）的防御能力，并为事故应急决策提供辅助依据。本系统的出现，可从根本上杜绝保安人员偷懒的现象；有关部门还可以根据保安人员传回的巡检信息及时对有关问题作出处理，商场的安全状况就会得到大大地改善。</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+				<div class="col-md-4 filtr-item baner-top ban-mar" data-category="3, 4" data-sort="Industrial site">
+					<a href="images/g3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>中航物业</h4>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-4 filtr-item baner-top ban-mar" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="images/g4.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g4.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>湖南建工相山投资集团</h4>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-4  filtr-item baner-top ban-mar" data-category="1, 5" data-sort="City lights">
+                    <a href="images/g5.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g5.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>国家电网</h4>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-6 filtr-item baner-top" data-category="1, 4" data-sort="City wonders">
+					<a href="images/g6.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g6.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>CONSORTIUM</h4>
+										<span class="divider"></span>
+										<p>    管理人员通过后台巡更系统管理，制定巡逻计划、定义巡逻路线和巡逻人员等功能。实现了人员统一管理，提高了巡逻效率；降低人工整理数据造成的时间浪费，杜绝了数据造假；对巡逻人员的工作进行量化考核，避免有人脱岗、离岗；
+										</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class=" col-md-6 filtr-item baner-top" data-category="3" data-sort="In production">
+					<a href="images/g3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>CONSORTIUM</h4>
+										<span class="divider"></span>
+										<p>通过后台设置巡逻人员、时间、任务、巡逻计划。对重点区域和固定巡逻区域预先安装固定巡检点，降低了事故的发生率；NFC巡更，采用射频技术、无线通信，不用接触，对卡的保护较好，不易被破坏。不需要专职人员维护，降低使用成本。</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                
+               
+               <div class="clearfix"> </div>
+           
+		</div> 
+	</div>
+</div>
+<!-- //portfolio -->
+<!-- contact -->
+<div id="contact" class="contact  all_pad">
+		<div class="contact_left ">
+		<h3 class="title text-center">联系我们</h3>
+			<ul style="width: 400px;margin-left: 41%;">
+				<li>
+					<div style="float:left;display:inline;margin-top:0;margin-left:5px;">
+						<a class="fb"></a>
+					</div>
+					<div style="float:left;display:inline;margin-top:10px;margin-left:5px;">
+						<span style="color: #fff;">17707312086</span>
+					</div>
+				</li>
+				<br/>
+				<br/>
+
+				<li>
+					<div style="float:left;display:inline;margin-top:0;margin-left:5px;">
+						<a class="twit"></a>
+					</div>
+					<div style="float:left;display:inline;margin-top:10px;margin-left:5px;">
+						<span style="color: #fff;">德思勤创业大街A7栋</span>
+					</div>
+				</li>
+			<!--	<li><a class="goog" ></a></li>
+				<li><a class="drib" ></a></li>
+				<li><a class="pin" ></a></li>-->
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+</div>
+<!-- //contact -->
+<!-- footer -->
+<!-- //footer -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
